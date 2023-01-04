@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: end;
+    padding: 15px;
+    background-color: rgba(221, 231, 228, 0.8);
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+z-index: 1;
+    .heart {
+        position: relative;
+        margin-right: 25px;
+        .heart_counter {
+            position: absolute;
+            top: 0;
+           // color: rgb(157, 0, 255);
+            font-weight: 700;
+            font-size: 24px;
+            background-color: rgb(255, 255, 255);
+            padding: 3px;
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            text-align: center;
+        }
+    }
+
+    .basket {
+        position: relative;
+        margin-right: 25px;
+        .basket_counter {
+            position: absolute;
+            top: 0;
+           // color: rgb(157, 0, 255);
+            font-weight: 700;
+            font-size: 24px;
+            background-color: rgb(255, 255, 255);
+            padding: 3px;
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            text-align: center;
+        }
+    }
+}
+

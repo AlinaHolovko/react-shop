@@ -1,0 +1,82 @@
+ [
+{
+    "title": "Alize My Baby",
+    "price": "34 UAH",
+    "url": "https://golka.com.ua/image/cache/webp/catalog/articles/19-pryazha-my-baby-50gr--150m-myatniy-alize-1-700x700.webp",
+    "article": "928453",
+    "color": "#B5E0DD",
+    "id": "1"
+},
+ {
+    "title": "YarnArt Luxor",
+    "price": "62 UAH",
+    "url": "https://golka.com.ua/image/cache/webp/catalog/articles/1231-pryazha-luxor-50gr--125m-bezh-yarnart-1-700x700.webp",
+    "article": "09374",
+    "color": "#FBBF9A",
+    "id": "2"
+}, 
+ {
+    "title": "Alize Bella",
+    "price": "102 UAH",
+    "url": "https://golka.com.ua/image/cache/webp/catalog/articles/440-pryazha-bella-100gr--360m-suhaya-roza-alize-11-700x700.webp",
+    "article": "983475",
+    "color": "#A3657F",
+    "id": "3"
+},
+ {
+    "title": "Alize Baby Wool",
+    "price": "56 UAH",
+    "url": "https://golka.com.ua/image/cache/webp/catalog/articles/548-pryazha-baby-wool-50gr--175m-tsiplenok-alize-1-700x700.webp",
+    "article": "485335",
+    "color": "#FAC151",
+    "id": "4"
+},
+ {
+    "title": "YarnArt Allegro",
+    "price": "55 UAH",
+    "url": "https://golka.com.ua/image/cache/webp/catalog/articles/705-pryazha-allegro-50gr--145m-siniy-yarnart-1-700x700.webp",
+    "article": "349853",
+    "color": "#66D6E8",
+    "id": "5"
+},
+ {
+    "title": "Bobilon Maxi",
+    "price": "345 UAH",
+    "url": "https://golka.com.ua/image/cache/webp/catalog/articles/trikotazhnaya-pryazha-bobilon-maxi-9-11mm-vasilek-1-700x700.webp",
+    "article": "474585",
+    "color": "#6986BD",
+    "id": "6"
+},
+ {
+    "title": "Madame Tricot Maxi",
+    "price": "85 UAH",
+    "url": "https://golka.com.ua/image/cache/webp/catalog/articles/5527-pryazha-maxi-100gr--565m-salatoviy-madame-tricot-1-700x700.webp",
+    "article": "3745985",
+    "color": "#A6D758",
+    "id": "7"
+},
+ {
+    "title": "Victoria Cardinal",
+    "price": "69 UAH",
+    "url": "https://golka.com.ua/image/cache/webp/catalog/articles/41132-002-pryazha-cardinal-100gr--200m-molochniy-victoria-1-700x700.webp",
+    "article": "4815162342",
+    "color": "#D9CFA1",
+    "id": "8"
+},
+ {
+    "title": "Alize Softy",
+    "price": "38 UAH",
+    "url": "https://golka.com.ua/image/cache/webp/catalog/articles/185-pryazha-softy-50gr--115m-rozoviy-alize-1-700x700.webp",
+    "article": "88473",
+    "color": "#DBB1C0",
+    "id": "9"
+},
+ {
+    "title": "YarnArt Dolce",
+    "price": "101 UAH",
+    "url": "https://golka.com.ua/image/cache/webp/catalog/articles/773-pryazha-dolce-100gr--120m-persikoviy-yarnart-11-700x700.webp",
+    "article": "74743",
+    "color": "#FCD5BB",
+    "id": "10"
+}
+]

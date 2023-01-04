@@ -1,0 +1,15 @@
+.buttons-wrap {
+  display: flex;
+  justify-content: center;
+}
+   
+.button {
+  margin: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  margin: 20px;
+  box-shadow: 0 0 10px black;
+}
