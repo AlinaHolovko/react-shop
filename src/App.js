@@ -18,7 +18,7 @@ class App extends Component {
   };
   
   showCards = () => {
-    sendRequest("./productsArray.json").then((data) => {
+    sendRequest(`${process.env.PUBLIC_URL}/productArray.json`).then((data) => {
       this.setState({ cards: data });
     });
   };
