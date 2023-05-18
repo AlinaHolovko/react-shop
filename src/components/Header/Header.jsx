@@ -1,21 +1,21 @@
-import React, { Component } from "react";
 import Heart from "../icons/Heart";
 import Basket from "../icons/Basket";
+import Navigation from "../Navigation";
 import PropTypes from "prop-types";
 
 import "./Header.scss";
 
-class Header extends Component {
-
-  render() {
-    const { countBasket, countHeart} = this.props;
-    return (
-      <div className="header">
-        <Basket actions={<p className="basket_counter">{countBasket}</p>} />
-        <Heart actions={<p className="heart_counter">{countHeart}</p>} />
+function Header({ countBasket, countHeart}) {
+  
+  return (
+    <div className="header">
+      <Navigation />
+      <div className="header__icons">
+      <Basket actions={<p className="basket_counter">{countBasket}</p>} />
+      <Heart actions={<p className="heart_counter">{countHeart}</p>} />
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 Header.protoTypes = {

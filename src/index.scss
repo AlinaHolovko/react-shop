@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400&display=swap');
+
 body {
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // height: 90vh;
-    // font-size: 24px;
-    background-color: rgb(251, 255, 255);
-    
+    // background-color: rgb(251, 255, 255);
+    background:
+    linear-gradient(217deg, rgb(248, 240, 186), rgba(216, 240, 239, 0) 70.71%),
+    linear-gradient(127deg, rgba(139, 117, 150, 1), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(109, 199, 156, 1), rgba(106, 106, 237, 0) 70.71%);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Rowdies', cursive;
 }
 

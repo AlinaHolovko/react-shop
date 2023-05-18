@@ -1,46 +1,49 @@
+@mixin  icons {
+    position: relative;
+    margin-left: 25px;
+}
+
+@mixin icons-counter {
+    position: absolute;
+            top: 0;
+            font-weight: 700;
+            font-size: 14px;
+            background-color: rgb(255, 255, 255);
+            padding: 3px;
+            border-radius: 50%;
+            width: 15px;
+            height: 15px;
+            text-align: center;
+}
+
 .header {
     display: flex;
-    justify-content: end;
-    padding: 15px;
-    background-color: rgba(221, 231, 228, 0.8);
+   justify-content: space-around;
+    align-items: center;
+   padding: 15px;
+    background: linear-gradient(to right, rgba(212, 99, 240, 0.2), rgba(119, 248, 244, 0.2));
+    box-shadow: 0px 0px 10px rgba(114, 53, 130, 0.5);
     position: fixed;
     right: 0;
     left: 0;
     top: 0;
-z-index: 1;
+    z-index: 1;
+
+    .header__icons {
+        display: flex;
+    }
+
     .heart {
-        position: relative;
-        margin-right: 25px;
+       @include icons;
         .heart_counter {
-            position: absolute;
-            top: 0;
-           // color: rgb(157, 0, 255);
-            font-weight: 700;
-            font-size: 24px;
-            background-color: rgb(255, 255, 255);
-            padding: 3px;
-            border-radius: 50%;
-            width: 25px;
-            height: 25px;
-            text-align: center;
+            @include icons-counter;
         }
     }
 
     .basket {
-        position: relative;
-        margin-right: 25px;
+        @include icons;
         .basket_counter {
-            position: absolute;
-            top: 0;
-           // color: rgb(157, 0, 255);
-            font-weight: 700;
-            font-size: 24px;
-            background-color: rgb(255, 255, 255);
-            padding: 3px;
-            border-radius: 50%;
-            width: 25px;
-            height: 25px;
-            text-align: center;
+            @include icons-counter;
         }
     }
 }

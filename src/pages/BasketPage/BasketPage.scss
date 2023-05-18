@@ -1,0 +1,25 @@
+.basket {
+    .buttons-wrap {
+       // position: relative;
+        margin-top: 15px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 2px solid rgb(151, 151, 151);
+            background: rgba(255, 255, 255, 0.3);;
+            display: block;
+            top: -3px;
+            right: 0;
+        }
+        svg {
+            width: 15px;
+            top: 3px;
+            right: 10px;
+            fill: rgb(151, 151, 151);
+        }
+    }
+}
