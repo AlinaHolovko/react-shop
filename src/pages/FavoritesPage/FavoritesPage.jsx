@@ -8,8 +8,6 @@ import PropTypes from "prop-types";
 
 function FavoritesPage({ removeFromFavorites, favorite }) {
 
-  const loading = useSelector(selectorLoading);
-
   const favItem = favorite.map((currentCard) => (
     <div className="products_card" id={currentCard.id} key={currentCard.id}>
       <div className="card_icon">
@@ -50,8 +48,8 @@ function FavoritesPage({ removeFromFavorites, favorite }) {
 
   return (
     <>
-      {loading ? (
-        <EmptyPage text="ОБРАНЕ" />
+      {favorite.length === 0 ? (
+        <EmptyPage text="FAVORITE" />
       ) : (
         <div className="products">{favItem}</div>
       )}

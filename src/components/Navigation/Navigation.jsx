@@ -8,17 +8,17 @@ function Navigation () {
     return <ul className="header__nav">
     <li className="nav-item">
         <NavLink to="/" activeClassName="active" className="nav-link">
-            Головна
+            Main
         </NavLink>
     </li>
     <li className="nav-item">
         <NavLink to="/basket" activeClassName="active" className="nav-link">
-            Кошик
+            Cart
         </NavLink>   
     </li>
     <li className="nav-item">
         <NavLink to="/favorites" activeClassName="active" className="nav-link">
-            Обране
+            Favorite
         </NavLink>
     </li>
     </ul>

@@ -2,11 +2,7 @@ import { useState } from "react";
 import PropTypes from "prop-types";
 import { useSelector, useDispatch } from "react-redux";
 
-
-import {
-  selectorBasket,
-  selectorLoading,
-} from "../../selectors";
+import { selectorBasket } from "../../selectors";
 
 import Button from "../../components/Button";
 import Modal from "../../components/Modal";
@@ -25,7 +21,6 @@ function BasketPage({
 }) {
   const [currentCard, setCurrentCard] = useState({});
   const basket = useSelector(selectorBasket);
-  const loading = useSelector(selectorLoading);
 
   const basketItem = basket.map((currentCard) => (
     <div
@@ -42,20 +37,20 @@ function BasketPage({
       </div>
       <div className="card_description">
         <p className="title">
-          <b>Назва:</b> {currentCard.title}
+          <b>Title:</b> {currentCard.title}
         </p>
         <p className="price">
-          <b>Ціна:</b> {currentCard.price}
+          <b>Price:</b> {currentCard.price}
         </p>
         <p>
-          <b>Колір:</b>
+          <b>Color:</b>
           <span
             className="color"
             style={{ backgroundColor: currentCard.color }}
           ></span>
         </p>
         <p>
-          <b>Артикль:</b> {currentCard.article}
+          <b>Article:</b> {currentCard.article}
         </p>
       </div>
       <div className="buttons-wrap">
@@ -72,8 +67,8 @@ function BasketPage({
 
   return (
     <>
-      {loading ? (
-        <EmptyPage text="КОШИК" />
+      {basket.length === 0 ? (
+        <EmptyPage text="CART" />
       ) : (
         <div className="products">{basketItem}</div>
       )}
@@ -81,8 +76,8 @@ function BasketPage({
       {isModalSecond && (
         <Modal
           backgroundColor="#D5D8E3"
-          text="Товар додано до кошика. Якщо хочете видалити його, натисніть ОК"
-          header="Видалення товару"
+          text="The product has been added to the cart. If you want to remove it, click OK"
+          header="Product removal"
           onClick={closeModal}
           actions={
             <div className="buttons-wrap">
@@ -95,7 +90,7 @@ function BasketPage({
               />
               <Button
                 text="Cancel"
-                backgroundColor="#95979E"
+                backgroundColor="green"
                 onClick={closeModal}
               />
               <Close onClick={closeModal} />

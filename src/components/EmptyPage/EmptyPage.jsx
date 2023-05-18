@@ -4,7 +4,7 @@ import './EmptyPage.scss'
 function EmptyPage ({text}) {
     return (
         <div className="empty">
-            <p>Тут будуть товари, які ви додали до розділу "{text}"</p>
+            <p>Here will be the products that you have added to the section "{text}"</p>
         </div>
     )
 }

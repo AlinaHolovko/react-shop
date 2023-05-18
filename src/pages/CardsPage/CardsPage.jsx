@@ -6,6 +6,8 @@ import Card from "../../components/Card/Card";
 import { actionFetchCards } from "../../actions";
 import { selectorCards } from "../../selectors";
 
+import './CardsPage.scss'
+
 function Cards({handlerCard, addToFavorites, modalOpen}) {
   
   const cards = useSelector(selectorCards);
